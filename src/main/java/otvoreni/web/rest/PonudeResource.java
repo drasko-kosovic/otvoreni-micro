@@ -129,6 +129,33 @@ public class PonudeResource {
                     if (ponude.getSifraPonude() != null) {
                         existingPonude.setSifraPonude(ponude.getSifraPonude());
                     }
+                    if (ponude.getSifraPostupka() != null) {
+                        existingPonude.setSifraPostupka(ponude.getSifraPostupka());
+                    }
+                    if (ponude.getBrojPartije() != null) {
+                        existingPonude.setBrojPartije(ponude.getBrojPartije());
+                    }
+                    if (ponude.getNazivProizvodjaca() != null) {
+                        existingPonude.setNazivProizvodjaca(ponude.getNazivProizvodjaca());
+                    }
+                    if (ponude.getZasticeniNaziv() != null) {
+                        existingPonude.setZasticeniNaziv(ponude.getZasticeniNaziv());
+                    }
+                    if (ponude.getPonudjenaVrijednost() != null) {
+                        existingPonude.setPonudjenaVrijednost(ponude.getPonudjenaVrijednost());
+                    }
+                    if (ponude.getRokIsporuke() != null) {
+                        existingPonude.setRokIsporuke(ponude.getRokIsporuke());
+                    }
+                    if (ponude.getDatumPonude() != null) {
+                        existingPonude.setDatumPonude(ponude.getDatumPonude());
+                    }
+                    if (ponude.getSifraPonudjaca() != null) {
+                        existingPonude.setSifraPonudjaca(ponude.getSifraPonudjaca());
+                    }
+                    if (ponude.getSelected() != null) {
+                        existingPonude.setSelected(ponude.getSelected());
+                    }
 
                     return existingPonude;
                 }

@@ -1,11 +1,11 @@
-id;sifra_ponude
-1;77033
-2;65484
-3;74446
-4;38402
-5;64512
-6;44719
-7;64280
-8;23773
-9;31878
-10;49051
+id;sifra_ponude;sifra_postupka;broj_partije;naziv_proizvodjaca;zasticeni_naziv;ponudjena_vrijednost;rok_isporuke;datum_ponude;sifra_ponudjaca;selected
+1;77033;65484;74446;withdrawal Fully-configurable;Group;Ergonomic mobile engage;82343;2021-09-05;50061;true
+2;52266;13619;43816;back transmit;Pizza Fresh Optional;navigate;52733;2021-09-04;13457;false
+3;34250;1023;69781;program;Implementation Trace Borders;Grocery Salad;69366;2021-09-05;68309;true
+4;44985;89880;85788;syndicate Central Generic;South;cross-platform functionalities;47042;2021-09-04;38863;false
+5;43448;57228;15942;Accountability neural;Cotton;Chicken Avon;22429;2021-09-04;52167;false
+6;97019;41224;30567;Monaco COM Designer;Nebraska seize;auxiliary multi-byte Chair;21886;2021-09-04;27779;true
+7;17400;32391;11746;cultivate reinvent;Maine;El;27573;2021-09-05;26156;true
+8;12281;59516;78710;Communications Soft Investment;Garden Lead;target cutting-edge Factors;79435;2021-09-04;71319;true
+9;41548;82871;62055;multimedia Avon;orchestrate;International Avon utilize;21542;2021-09-04;28116;false
+10;6803;28508;41189;lime solution-oriented Paradigm;index Digitized red;digital connect Investment;77307;2021-09-04;74555;true

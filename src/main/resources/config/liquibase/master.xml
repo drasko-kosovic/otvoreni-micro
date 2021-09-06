@@ -16,5 +16,11 @@
 
     <include file="config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
     <include file="config/liquibase/changelog/20210905073219_added_entity_Ponude.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210906150246_added_entity_Postupci.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210906182835_added_entity_Ponudjaci.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210906184236_added_entity_Narucilac.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210906185421_added_entity_Ugovor.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210906191102_added_entity_Specifikacije.xml" relativeToChangelogFile="false"/>
+
 
 </databaseChangeLog>
