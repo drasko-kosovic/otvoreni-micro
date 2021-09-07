@@ -28,7 +28,7 @@
     },
     {
       "fieldName": "ponudjenaVrijednost",
-      "fieldType": "String"
+      "fieldType": "Double"
     },
     {
       "fieldName": "rokIsporuke",

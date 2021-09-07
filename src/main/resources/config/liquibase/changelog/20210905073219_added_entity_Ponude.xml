@@ -29,7 +29,7 @@
             <column name="zasticeni_naziv" type="varchar(255)">
                 <constraints nullable="true" />
             </column>
-            <column name="ponudjena_vrijednost" type="varchar(255)">
+            <column name="ponudjena_vrijednost" type="double">
                 <constraints nullable="true" />
             </column>
             <column name="rok_isporuke" type="integer">
@@ -69,7 +69,7 @@
             <column name="broj_partije" type="numeric"/>
             <column name="naziv_proizvodjaca" type="string"/>
             <column name="zasticeni_naziv" type="string"/>
-            <column name="ponudjena_vrijednost" type="string"/>
+            <column name="ponudjena_vrijednost" type="numeric"/>
             <column name="rok_isporuke" type="numeric"/>
             <column name="datum_ponude" type="date"/>
             <column name="sifra_ponudjaca" type="numeric"/>

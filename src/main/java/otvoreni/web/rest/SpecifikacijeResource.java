@@ -156,6 +156,12 @@ public class SpecifikacijeResource {
                     if (specifikacije.getProcijenjenaVrijednost() != null) {
                         existingSpecifikacije.setProcijenjenaVrijednost(specifikacije.getProcijenjenaVrijednost());
                     }
+                    if (specifikacije.getPakovanje() != null) {
+                        existingSpecifikacije.setPakovanje(specifikacije.getPakovanje());
+                    }
+                    if (specifikacije.getTrazenaKolicina() != null) {
+                        existingSpecifikacije.setTrazenaKolicina(specifikacije.getTrazenaKolicina());
+                    }
 
                     return existingSpecifikacije;
                 }

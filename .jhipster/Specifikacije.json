@@ -36,6 +36,14 @@
     {
       "fieldName": "procijenjenaVrijednost",
       "fieldType": "Double"
+    },
+    {
+      "fieldName": "pakovanje",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "trazenaKolicina",
+      "fieldType": "Integer"
     }
   ],
   "relationships": [],

@@ -41,7 +41,7 @@ public class Ponude implements Serializable {
     private String zasticeniNaziv;
 
     @Column(name = "ponudjena_vrijednost")
-    private String ponudjenaVrijednost;
+    private Double ponudjenaVrijednost;
 
     @Column(name = "rok_isporuke")
     private Integer rokIsporuke;
@@ -134,16 +134,16 @@ public class Ponude implements Serializable {
         this.zasticeniNaziv = zasticeniNaziv;
     }
 
-    public String getPonudjenaVrijednost() {
+    public Double getPonudjenaVrijednost() {
         return this.ponudjenaVrijednost;
     }
 
-    public Ponude ponudjenaVrijednost(String ponudjenaVrijednost) {
+    public Ponude ponudjenaVrijednost(Double ponudjenaVrijednost) {
         this.ponudjenaVrijednost = ponudjenaVrijednost;
         return this;
     }
 
-    public void setPonudjenaVrijednost(String ponudjenaVrijednost) {
+    public void setPonudjenaVrijednost(Double ponudjenaVrijednost) {
         this.ponudjenaVrijednost = ponudjenaVrijednost;
     }
 
@@ -228,7 +228,7 @@ public class Ponude implements Serializable {
             ", brojPartije=" + getBrojPartije() +
             ", nazivProizvodjaca='" + getNazivProizvodjaca() + "'" +
             ", zasticeniNaziv='" + getZasticeniNaziv() + "'" +
-            ", ponudjenaVrijednost='" + getPonudjenaVrijednost() + "'" +
+            ", ponudjenaVrijednost=" + getPonudjenaVrijednost() +
             ", rokIsporuke=" + getRokIsporuke() +
             ", datumPonude='" + getDatumPonude() + "'" +
             ", sifraPonudjaca=" + getSifraPonudjaca() +
