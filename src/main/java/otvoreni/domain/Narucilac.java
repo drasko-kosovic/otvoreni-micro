@@ -41,6 +41,9 @@ public class Narucilac implements Serializable {
     @Column(name = "email")
     private String email;
 
+    @Column(name = "adresa")
+    private String adresa;
+
     // jhipster-needle-entity-add-field - JHipster will add fields here
     public Long getId() {
         return id;
@@ -146,6 +149,19 @@ public class Narucilac implements Serializable {
         this.email = email;
     }
 
+    public String getAdresa() {
+        return this.adresa;
+    }
+
+    public Narucilac adresa(String adresa) {
+        this.adresa = adresa;
+        return this;
+    }
+
+    public void setAdresa(String adresa) {
+        this.adresa = adresa;
+    }
+
     // jhipster-needle-entity-add-getters-setters - JHipster will add getters and setters here
 
     @Override
@@ -177,6 +193,7 @@ public class Narucilac implements Serializable {
             ", pdv='" + getPdv() + "'" +
             ", odgovornoLiceNarucioca='" + getOdgovornoLiceNarucioca() + "'" +
             ", email='" + getEmail() + "'" +
+            ", adresa='" + getAdresa() + "'" +
             "}";
     }
 }

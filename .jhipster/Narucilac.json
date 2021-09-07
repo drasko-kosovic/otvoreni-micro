@@ -30,6 +30,10 @@
     {
       "fieldName": "email",
       "fieldType": "String"
+    },
+    {
+      "fieldName": "adresa",
+      "fieldType": "String"
     }
   ],
   "relationships": [],

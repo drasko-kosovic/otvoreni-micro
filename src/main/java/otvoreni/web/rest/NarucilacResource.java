@@ -145,6 +145,9 @@ public class NarucilacResource {
                     if (narucilac.getEmail() != null) {
                         existingNarucilac.setEmail(narucilac.getEmail());
                     }
+                    if (narucilac.getAdresa() != null) {
+                        existingNarucilac.setAdresa(narucilac.getAdresa());
+                    }
 
                     return existingNarucilac;
                 }
