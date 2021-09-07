@@ -22,5 +22,8 @@
     <include file="config/liquibase/changelog/20210906185421_added_entity_Ugovor.xml" relativeToChangelogFile="false"/>
     <include file="config/liquibase/changelog/20210906191102_added_entity_Specifikacije.xml" relativeToChangelogFile="false"/>
 
+    <include file="config/liquibase/changelog/20210421123017_added_entity_ViewVrednovanje0.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/create-view-maximalni_bod.xml" relativeToChangelogFile="false"/>
+
 
 </databaseChangeLog>
