@@ -37,7 +37,7 @@
     "packageFolder": "otvoreni",
     "jwtSecretKey": "MmJlNWE0YjRkMDI3Y2EyMWFjY2FlZTg2Y2ZkYjA5MjZjNGYzZjc3Y2QxYTM1NjM5ZmNhMmY2ZWUzNWNhMDcyOTE5M2U2MmYyNTUzYzY1MzA5MDlmZDA3ZWJiMTZkNDU1YjNlMzVlOWQxMWVmN2NiYTEwZTViYmIxMTUwNzA0NWY=",
     "languages": ["sr", "en"],
-    "lastLiquibaseTimestamp": 1631029913000,
+    "lastLiquibaseTimestamp": 1631030636000,
     "entities": [
       "Ponude",
       "Postupci",
@@ -48,7 +48,8 @@
       "Anex",
       "HvalePonude",
       "PonudjaciPonude",
-      "Prvorangirani"
+      "Prvorangirani",
+      "UgovorPdf"
     ]
   }
 }

@@ -9,7 +9,7 @@ import org.hibernate.annotations.CacheConcurrencyStrategy;
  * A Anex.
  */
 @Entity
-@Table(name = "anex")
+@Table(name = "view_anex")
 @Cache(usage = CacheConcurrencyStrategy.READ_WRITE)
 public class Anex implements Serializable {
 
