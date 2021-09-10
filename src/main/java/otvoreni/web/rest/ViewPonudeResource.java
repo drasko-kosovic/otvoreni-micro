@@ -27,6 +27,12 @@ public class ViewPonudeResource {
         this.viewPonudeRepository = viewPonudeRepository;
     }
 
+    @GetMapping("/view-ponude")
+    public List<ViewPonude> getAllViewPonudes() {
+        log.debug("REST request to get all ViewPonudes");
+        return viewPonudeRepository.findAll();
+    }
+
     @GetMapping("/view_ponude/{sifra_postupka}")
     public List<ViewPonude> getViewPonude(@PathVariable Integer sifra_postupka) {
         return viewPonudeRepository.findBySifraPostupka(sifra_postupka);
@@ -35,12 +41,6 @@ public class ViewPonudeResource {
     @GetMapping("/view_ponude-sifra-ponude/{sifra_ponude}")
     public List<ViewPonude> getViewSifraPonude(@PathVariable Integer sifra_ponude) {
         return viewPonudeRepository.findBySifraPonude(sifra_ponude);
-    }
-
-    @GetMapping("/view_ponude")
-    public List<ViewPonude> getAllViewPonude() {
-        log.debug("REST request to get all Ponudes");
-        return viewPonudeRepository.findAll();
     }
 
     @GetMapping("/view_ponudes/{id}")
