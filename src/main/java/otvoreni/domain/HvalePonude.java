@@ -9,7 +9,7 @@ import org.hibernate.annotations.CacheConcurrencyStrategy;
  * A HvalePonude.
  */
 @Entity
-@Table(name = "hvale_ponude")
+
 @Cache(usage = CacheConcurrencyStrategy.READ_WRITE)
 public class HvalePonude implements Serializable {
 
