@@ -10,7 +10,7 @@ import org.hibernate.annotations.CacheConcurrencyStrategy;
  * A UgovorPdf.
  */
 @Entity
-@Table(name = "ugovor_pdf")
+@Table(name = "view_ugovor")
 @Cache(usage = CacheConcurrencyStrategy.READ_WRITE)
 public class UgovorPdf implements Serializable {
 

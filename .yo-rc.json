@@ -49,7 +49,10 @@
       "HvalePonude",
       "PonudjaciPonude",
       "Prvorangirani",
-      "UgovorPdf"
+      "UgovorPdf",
+      "ViewPonude",
+      "ViewVrednovanje",
+      "ViewPrvorangirani"
     ]
   }
 }

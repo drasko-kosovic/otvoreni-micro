@@ -203,4 +203,9 @@ public class UgovorResource {
             .headers(HeaderUtil.createEntityDeletionAlert(applicationName, true, ENTITY_NAME, id.toString()))
             .build();
     }
+
+    @GetMapping("/ugovor/{sifra_postupka}")
+    public List<Ugovor> getPonude(@PathVariable Integer sifra_postupka) {
+        return ugovorRepository.findBySifraPostupka(sifra_postupka);
+    }
 }
