@@ -53,6 +53,7 @@
       "ViewPonude",
       "ViewVrednovanje",
       "ViewPrvorangirani"
-    ]
+    ],
+    "appFolder": "otvoreni-micro"
   }
 }
